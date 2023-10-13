@@ -3,12 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+        td 
+        {
+            text-align: center;;
+        }
+      </style>
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
-    </table>
-  </body>
+
+    <table border ="2">
+        <tr>
+          <td >
+            <table border="1">
+              <tr>  
+                <th colspan="2">Nested Table 2</th>
+               
+              </tr>
+              <tr>
+                <th>column 1</th>
+                <th>column 2</th>
+              </tr>
+              <tr>
+                <td style="text-align: center;" >abc</td>
+                <td>def</td>
+              </tr>
+            </table>
+          </td>
+           
+          <td>
+            <table border="1" "text-align: center;" >
+              <tr>
+                <th>Nested Table 1</th>
+              </tr>
+              <tr>
+                <td><center>
+                  <ul style= >
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item</li>
+                  </ul><center>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+  
+        <tr>
+          <td><table border="1">
+            <tr>
+              <th colspan="2">Nested table 3</th>
+            </tr>
+            <tr>
+              <td>Nested table</td>
+              <td>Demo continued</td>
+            </tr>
+          </table></td>
+          <td>
+            <table border="1">
+              <tr>
+                <th>Nested table 4</th>
+              </tr>
+              <tr>
+                <td>HTML</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        
+      </table>
+      
+
+</body>
 </html>
